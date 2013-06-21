@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 
 namespace lorenzocammarata.Controllers
 {
@@ -24,6 +25,11 @@ namespace lorenzocammarata.Controllers
         }
 
         public ActionResult Amici()
+        {
+            return View();
+        }
+
+        public ActionResult PrimiPassi()
         {
             return View();
         }

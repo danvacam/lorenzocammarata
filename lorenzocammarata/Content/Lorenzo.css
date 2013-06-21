@@ -216,6 +216,10 @@ hr
     float: left;
 }
 
+#likes div {
+    float: left;
+}
+
 .likes-title {
     font-size: 100%;
     font-weight: bold;
