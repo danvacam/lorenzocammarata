@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+        <title>@ViewBag.Title - Lorenzo Cammarata</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/Lorenzo/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+<body>
+    <div>
+        
+    </div>
+    <div id="wrapper">
+        <div id="head-container">
+            <div class="container">
+                <div id="head-bg">
+                    <div class="intro">
+                        <h1>Lorenzo Cammarata</h1>
+                        <p>La mia pagina personale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page">
+            @RenderBody()
+            <hr class="space">
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - Daniele Cammarata</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

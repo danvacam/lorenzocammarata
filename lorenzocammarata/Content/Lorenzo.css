@@ -1,0 +1,227 @@
+﻿html
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #f3f3f3;
+    border-top: solid 10px #000;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@font-face
+{
+    font-family: 'chicken';
+    src: url(../Images/Lorenzo/FontdinerdotcomSparkly.eot);
+    src: local('chicken'), url('../Images/Lorenzo/FontdinerdotcomSparkly.ttf');
+}
+
+footer
+{
+    background: #e4e4e4;
+    color: #888;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* main layout
+----------------------------------------------------------*/
+#wrapper
+{
+    position: relative;
+    height: auto !important;
+    min-height: 100%;
+}
+
+#head-container
+{
+    background: #2299FF;
+    background-image: -webkit-gradient(radial, 50% 10%, 320, 50% 90%, 850, from(#ff7100), to(#953c00));
+}
+
+#head-bg
+{
+    width: 950px;
+    background: url(../Images/Lorenzo/logo.png) bottom right no-repeat;
+    height: 275px;
+}
+
+#page
+{
+    padding-bottom: 100px;
+}
+
+.container
+{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.intro
+{
+    padding-top: 22px;
+}
+
+    .intro h1
+    {
+        line-height: .9em;
+        margin-bottom: 16px;
+        width: 350px;
+        padding-top: 30px;
+        color: #fff;
+        text-shadow: 1px 2px 0px rgba(0,0,0,0.2);
+        font-size: 62px;
+        font-family: chicken, Verdana, sans-serif;
+    }
+
+    .intro p
+    {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        color: #fff;
+        font-family: Verdana, sans-serif;
+    }
+
+
+/* navigation menu
+----------------------------------------------------------*/
+#categories
+{
+    list-style: none;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+    #categories li
+    {
+        display: block;
+        margin: 0 40px 0 0;
+        padding: 0;
+        width: 200px;
+        float: left;
+    }
+
+        #categories li a
+        {
+            display: block;
+            position: relative;
+            width: 180px;
+            height: 220px;
+            text-decoration: none;
+            color: #F15D22;
+            background-image: url(../Images/Lorenzo/categorie.png);
+            background-repeat: no-repeat;
+            border: 3px solid #f3f3f3;
+            border-radius: 12px;
+            -moz-border-radius: 12px;
+            -webkit-border-radius: 12px;
+        }
+
+            #categories li a:hover
+            {
+                background-color: #dfdfdf;
+                border: 3px solid #cdcdcd;
+            }
+
+            #categories li a span
+            {
+                display: block;
+                position: absolute;
+                bottom: 8px;
+                font-size: 110%;
+                font-weight: bold;
+                width: 175px;
+                text-align: center;
+            }
+
+#myself a
+{
+    background-position: 8px 0;
+}
+
+#family a
+{
+    background-position: -185px 0;
+}
+
+#friends a
+{
+    background-position: -367px 0;
+}
+
+#steps a
+{
+    background-position: -559px 0;
+}
+
+hr
+{
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 1px;
+    margin: 0 0 2em;
+    border-bottom: 1px dashed #b9b9b9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+    hr.space
+    {
+        background: #fff;
+        color: #fff;
+        visibility: hidden;
+    }
+
+
+/*
+    */
+
+.white-box
+{
+    float: left;
+    margin-right: 9px;
+    width: 550px;
+    padding: 20px 34px 40px 34px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0px 1px 0px #e1e1e1;
+    -webkit-box-shadow: 0px 1px 0px #e1e1e1;
+    -moz-box-shadow: 0px 1px 0px #e1e1e1;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    margin: 0 auto 30px auto;
+    padding: 30px 40px;
+}
+
+#likes
+{
+    width: 291px;
+    text-align: center;
+    padding: 5px 17px;
+    float: left;
+}
+
+.likes-title {
+    font-size: 100%;
+    font-weight: bold;
+    color: #6C6B6B;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #b9b9b9;
+}
